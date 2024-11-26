@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick's Rental Management</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; padding: 10px 20px; text-align: center; }
+        nav { background: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 20px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px 0; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Patrick's Rental Management</h1>
+    </header>
+    <nav>
+        <a href="#properties">Properties</a>
+        <a href="#tenant-portal">Tenant Portal</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="properties">
+        <h2>Available Properties</h2>
+        <p>Check back for updates!</p>
+    </section>
+    <section id="tenant-portal">
+        <h2>Tenant Portal</h2>
+        <p>Pay rent via Paybill 247247, Account 577499, and send confirmation to 0713577499.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: patrick@rentals.com | Phone: 0713577499</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Patrick's Rental Management</p>
+    </footer>
+</body>
+</html>
